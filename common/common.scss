@@ -1,0 +1,172 @@
+
+:root {
+    --radius: 24px;
+}
+
+a {
+    border-radius: var(--radius);
+}
+
+.title {
+    font-weight: bold;
+}
+
+div.search-input { // applies to any module
+    border: none !important;
+}
+
+div.d-header-wrap { // navigation bar, header
+    //position: static;
+    // change to scroll toggle, scrollTop transparent -> solid bgclr
+
+    ul.icons {
+
+        & > li svg.d-icon {
+            color: var(--primary-medium);
+        }
+    }
+}
+
+#main-outlet {
+    margin-block: 4em;
+
+    button {
+        padding: 1em 1.4em !important;
+        border-radius: calc(var(--radius)/2);
+    }
+
+    .nav-pills > li a.active, .nav-pills > li button.active {
+        background-color: var(--tertiary);
+    }
+
+    table {
+        border-collapse: separate; 
+        border-spacing: 0 0.1em;
+
+
+        tr {
+            border: none;
+    
+            a.badge-wrapper {
+                color: var(--primary);
+                margin-block: 1em;
+                padding: 0.4em 1.2em;
+    
+                span.category-name {
+                    color: var(--primary);
+                    font-weight: bold;
+                }
+    
+                span.badge-category-bg {
+                    width: 1em;
+                    height: 1em;
+                    margin-block: auto;
+                    border-radius: var(--radius);
+    
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        top: 0; left: 0; right: 0; bottom: 0;
+                        background-color: inherit;
+                        border-radius: var(--radius);
+                        opacity: 0.25;
+                        z-index: -1;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*Header Search (for nav) - Hides when Discourse Search Banner Active*/
+
+html.display-search-banner div.floating-search-input {
+    pointer-events: none;
+    opacity: 0;
+}
+
+/* Discourse Search Banner - overrides */
+
+div.custom-search-banner {
+    display: flex;
+    align-items: center;
+    min-height: 440px;
+    margin-top: -4em;
+    padding-top: 4em;
+
+    div.custom-search-banner-wrap {
+        max-width: 540px;
+
+        h1 {
+            color: var(--tertiary-low);
+            font-size: 3em;
+            font-weight: normal;
+            margin-block: 1em;
+        }
+    
+        div.search-input:focus-within {
+            outline: none;
+        }
+    
+        div.search-input > input {
+            padding: 1em 2em;
+            border-radius: 2em;
+            opacity: 0.7;
+        }
+    
+        button {
+            min-width: 5em;
+            min-height: 100%;
+            background-color: var(--primary-low);
+            border-radius: 2em;
+        }
+    }
+}
+
+/* Welcome Banner - overrides */
+
+div.welcome-link-banner-wrapper {
+
+    div.welcome-wrapper {
+        align-items: center;
+        box-shadow: none !important;
+    
+        div.welcome-content {
+            display: none;
+        }
+    
+        div.featured-banner-link {
+            & > div {
+                a {
+                    h3 {
+                        font-weight: bold !important;
+                        text-transform: capitalize;
+                        line-height: 4 !important;
+                        svg {
+                            width: 2em;
+                            height: 2em;
+                            background-color: var(--secondary);
+                            padding: 0.8em;
+                            border-radius: 50%;
+                        }
+                    }
+                
+                }
+            }
+        }
+    }
+
+}
+
+/* Right Sidebar Blocks */
+
+div.tc-right-sidebar {
+    background-color: var(--secondary-very-high);
+    margin-block: 1em;
+    padding: 1em;
+    border-radius: var(--radius);
+
+    h3.top-contributors-heading {
+        text-align: right;
+    }
+}
