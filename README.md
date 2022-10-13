@@ -6,4 +6,4 @@ To Do -
 * Style drop-downs
 * Style hover effects & w/ animations
 * Toggle class of nav bar based on x.scrollTop() = 0, true | false
-* Check longer Recent Searches for search header aren't overlapped by z-indexing
+* Check longer Recent Searches drop-down for search header isn't overlapped by z-indexing
