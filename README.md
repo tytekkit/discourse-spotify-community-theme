@@ -1,6 +1,6 @@
 To Do -
 * Dark theme, preliminary styling is there
-* Inside posts need styling
+* Inside posts need styling, ex: https://puu.sh/JoU3y/a6d8539865.png spacing margins between Related too large
 * Rounded consistency, some buttons are still sharp that go under different tag names like "summary"
 * Banner search (not Header search) styling in FF, has black corners
 * Style drop-downs
