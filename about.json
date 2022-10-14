@@ -17,7 +17,7 @@
     "Light": {
       "primary": "000000",
       "secondary": "ffffff",
-      "tertiary": "1fdf64",
+      "tertiary": "2ebd59",
       "quaternary": "5b5b5b",
       "header_background": "transparent",
       "header_primary": "1ed760",
@@ -27,9 +27,9 @@
       "love": "d65035"
     },
     "Placeholder Dark": {
-      "primary": "ffffff",
-      "secondary": "000000",
-      "tertiary": "1fdf64",
+      "primary": "000000",
+      "secondary": "191414",
+      "tertiary": "2ebd59",
       "quaternary": "5b5b5b",
       "header_background": "000000",
       "header_primary": "1ed760",

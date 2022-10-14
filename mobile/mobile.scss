@@ -1,0 +1,30 @@
+
+// developed lowest @ 320px
+
+
+#main-outlet div.navigation-container #navigation-bar,
+.list-controls .nav-pills .navigation-toggle {
+    border: none;
+}
+
+td {
+    flex-wrap: wrap;
+    min-width: 100%;
+
+    div.right {
+        width: 100%;
+        margin: 1em 0.6em 1em 0.6em !important;
+
+        .topic-item-stats {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    }
+}
+
+div.custom-search-banner {
+    padding-bottom: 1em;
+}
+div.welcome-link-banner-wrapper {
+    display: none;
+}
