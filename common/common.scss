@@ -334,11 +334,13 @@ div.d-header-wrap { // navigation bar, header
     font-weight: bold;
     color: var(--tertiary) !important;
     min-width: 1em;
-    padding: 0.2em 0.4em !important;
+    padding: 0.2em 0.8em !important;
     background-color: var(--tertiary-100) !important;
     box-shadow: inset 0 0 0 4px var(--tertiary);
     border-radius: var(--radius);
-}
+    box-sizing: border-box;
+    line-height: 1.8;
+  }
 
 a.badge-wrapper {
     color: var(--primary);
