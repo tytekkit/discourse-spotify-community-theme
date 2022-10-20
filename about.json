@@ -6,13 +6,10 @@
     "https://github.com/discourse/discourse-header-search",
     "https://github.com/discourse/Discourse-easy-footer",
     "https://github.com/discourse/new-like-icon",
-    "https://github.com/discourse/discourse-welcome-link-banner",
     "https://github.com/discourse/discourse-right-sidebar-blocks",
-    "https://github.com/discourse/discourse-search-banner"
+    "https://github.com/discourse/discourse-clickable-topic",
+    "https://github.com/discourse/discourse-topic-excerpts"
   ],
-  "modifiers": {
-    "serialize_topic_excerpts": true
-  },
   "color_schemes": {
     "Light": {
       "primary": "000000",
