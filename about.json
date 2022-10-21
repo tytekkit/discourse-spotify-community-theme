@@ -8,7 +8,8 @@
     "https://github.com/discourse/new-like-icon",
     "https://github.com/discourse/discourse-right-sidebar-blocks",
     "https://github.com/discourse/discourse-clickable-topic",
-    "https://github.com/discourse/discourse-topic-excerpts"
+    "https://github.com/discourse/discourse-topic-excerpts",
+    "https://github.com/tytekkit/banners"
   ],
   "color_schemes": {
     "Light": {
