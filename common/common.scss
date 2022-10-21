@@ -535,8 +535,8 @@ button.widget-button {
     color: var(--primary);
 }
 
-.menu-links-row button.active {
-    border-bottom: 1px solid var(--primary-low);
+.menu-links-row button.active { //backwards compatibility
+    border-bottom: 1px solid var(--primary-low) !important;
 }
 
 /* Preferences */
