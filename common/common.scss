@@ -531,6 +531,14 @@ button.widget-button {
     border-top: 0;
 }
 
+.menu-panel ul {
+    color: var(--primary);
+}
+
+.menu-links-row button.active {
+    border-bottom: 1px solid var(--primary-low);
+}
+
 /* Preferences */
 
 .controls {
