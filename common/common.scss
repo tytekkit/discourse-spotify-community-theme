@@ -59,6 +59,11 @@ div.d-header-wrap { // navigation bar, header
         overflow: visible;
     }
 
+    .discourse-tag.simple {
+        color: var(--primary-700) !important;
+        font-weight: bold;
+    }
+
 }
 
 /* MAIN, home pg */
