@@ -46,8 +46,6 @@ div.search-input { // applies to any module
 /* Header -- overwrite base/header.scss */
 
 div.d-header-wrap { // navigation bar, header
-    //position: static;
-    // change to scroll toggle, scrollTop transparent -> solid bgclr
 
     ul.icons {
 
@@ -57,6 +55,7 @@ div.d-header-wrap { // navigation bar, header
     }
 
     .extra-info-wrapper .topic-link {
+        color: var(--primary);
         overflow: visible;
     }
 
