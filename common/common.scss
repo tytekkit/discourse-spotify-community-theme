@@ -169,17 +169,6 @@ div.d-header-wrap { // navigation bar, header
         }
     }
 
-    div.full-width {
-        display: flex;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        gap: 1em;
-
-        #list-area {
-            flex-grow: 1;
-        }
-    }
-
     /* TOPIC LIST TABLE */
 
     table.topic-list {
