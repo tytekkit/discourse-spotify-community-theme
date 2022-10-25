@@ -26,6 +26,15 @@ a {
     transition: 0.5s ease
 }
 
+.alert {
+    margin-block: 1em;
+}
+
+.loading-container {
+    text-align: center;
+    margin: 1em;
+}
+
 div.search-input { // applies to any module
     border: none !important;
 
@@ -600,6 +609,18 @@ div.alert, .consent_banner {
 .admin-controls, .admin-container {
     background-color: transparent;
 
+    ul.nav.nav-pills {
+
+        nav {
+            background-color: transparent;
+
+            &:before, &:after {
+                content: none;
+            }
+        }
+
+    }
+
     .controls {
         background-color: transparent;
         padding: 0;
@@ -625,6 +646,16 @@ div.alert, .consent_banner {
 
 .admin-detail {
     border-left: none;
+}
+
+.themes-list-header > button {
+    margin: 0.2em;
+}
+
+.admin-customize .themes-list-container {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
 }
 
 
