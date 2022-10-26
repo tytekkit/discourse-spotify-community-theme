@@ -44,12 +44,12 @@ div.search-input { // applies to any module
         border-radius: var(--radius);
         outline: none !important;
     }
+}
 
-    div.searching {
-        top: 0.9em;
-        right: 9.5em;
-        z-index: 99;
-    }
+div.header-banner div.searching {
+    top: 0.9em;
+    right: 9.5em;
+    z-index: 99;
 }
 
 /* Header -- overwrite base/header.scss */
